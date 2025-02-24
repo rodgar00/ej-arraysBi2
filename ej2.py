@@ -13,15 +13,15 @@ for nFilas in range(fila):
 
 sumaFilas = []
 for i in range (fila):
-    valor = 0
+    suma = 0
     for j in range(columna):
-        valor += matriz[i][j]
-    sumaFilas.append(valor)
+        suma += matriz[i][j]
+    sumaFilas.append(suma)
 
 valorMaximo = []
-máximo = max(sumaFilas)
-valorMaximo.append(máximo)
+maximo = max(sumaFilas)
+valorMaximo.append(maximo)
 
-print(printMatriz(matriz))
+printMatriz(matriz)
 print(sumaFilas)
 print(f"El resultado mayor es {valorMaximo}")
